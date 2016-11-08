@@ -12,6 +12,7 @@ package vehicles;
 public class vehicle {
     private double gallonsofgas;
     private int mpg;
+private int mpg3;
 
     /**
      * @return the gallonsofgas
@@ -39,5 +40,19 @@ public class vehicle {
      */
     public void setMpg(int mpg) {
         this.mpg = mpg;
+    }
+
+    /**
+     * @return the mpg3
+     */
+    public int getMpg3() {
+        return mpg3;
+    }
+
+    /**
+     * @param mpg3 the mpg3 to set
+     */
+    public void setMpg3(int mpg3) {
+        this.mpg3 = mpg3;
     }
 }
